@@ -4,13 +4,13 @@
 
 **Dragon Coin backed by Bhutan's BTC Reserves**
 
-A revolutionary cryptocurrency project that leverages Bhutan's Bitcoin reserves to create a stable, backed digital currency.
+A revolutionary cryptocurrency project that leverages Bhutan's Bitcoin reserves to create a stable digital currency.
 
 ## 🌐 Live Deployment
-
-- **Main Application**: [https://druk-bitcoin-reserve.lovable.app/](https://druk-bitcoin-reserve.lovable.app/)
-- **Dashboard**: [https://druk-bitcoin-reserve.lovable.app/dashboard](https://druk-bitcoin-reserve.lovable.app/dashboard)
 - **Deployed Token Contract**: [0x432091fca44F8f6e2b20773cb1cA3c4d5a8ED4E8](https://sepolia.etherscan.io/token/0x432091fca44F8f6e2b20773cb1cA3c4d5a8ED4E8) (Sepolia Testnet)
+- **Main Application UI**: [https://druk-bitcoin-reserve.lovable.app/](https://druk-bitcoin-reserve.lovable.app/)
+- **Dashboard endpoint**: [https://druk-bitcoin-reserve.lovable.app/dashboard](https://druk-bitcoin-reserve.lovable.app/dashboard)
+
 ## 🎯 Core Features
 
 - **BTC-Backed Stability**: Dragon Coins are backed by Bhutan's Bitcoin reserves
@@ -34,7 +34,7 @@ A revolutionary cryptocurrency project that leverages Bhutan's Bitcoin reserves 
 #### 1. Clone the Repository
 ```bash
 git clone <repository-url>
-cd "dragon coin/code submission"
+cd "DRAGON"
 ```
 
 #### 2. Setup Local Server for Live Data Feed
@@ -145,7 +145,7 @@ The dashboard provides real-time monitoring of:
 
 ## 🔧 Optional: Hedge Lords Setup
 
-The Hedge Lords UI and service setup is **optional** but provides additional functionality for advanced users who want to explore additional features.
+The Hedge Lords UI and service setup is **optional** but provides additional functionality for advanced users who want to explore additional stabilizing features.
 
 ### Hedge Lords Server Setup
 
