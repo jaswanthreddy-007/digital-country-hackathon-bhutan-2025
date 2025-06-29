@@ -8,6 +8,8 @@ A revolutionary cryptocurrency project that leverages Bhutan's Bitcoin reserves 
 ## 📊 Presentation
 **View our project presentation**: [Dragon Coin Presentation Deck](https://www.canva.com/design/DAGrrg7qe-0/rj1IkYr7D2IPWtULELw-Ng/edit?utm_content=DAGrrg7qe-0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
+**Watch our presentation video**: [Dragon Coin Demo Video](https://www.loom.com/share/419b4d8336374b8fb7baf9409b9a1e97?sid=b22933e9-465d-4b3f-9639-e4c30fe2cd2a)
+
 ## 🌐 Live Deployment
 Everything in out there 🥳🥳
 - **Deployed Token Contract**: [0x432091fca44F8f6e2b20773cb1cA3c4d5a8ED4E8](https://sepolia.etherscan.io/token/0x432091fca44F8f6e2b20773cb1cA3c4d5a8ED4E8) (Sepolia Testnet)
