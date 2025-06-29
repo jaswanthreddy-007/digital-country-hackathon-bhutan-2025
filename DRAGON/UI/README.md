@@ -1,3 +1,25 @@
+# Dragon Coin UI
+
+## 🌐 Live Application
+**Access the live application directly**: [https://druk-bitcoin-reserve.lovable.app/](https://druk-bitcoin-reserve.lovable.app/)
+
+No setup required for end users! The application is fully deployed and functional.
+
+## 💻 Local Development
+For developers who want to run the UI locally:
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+The local UI will automatically connect to the deployed backend at https://dragon-coin.onrender.com/
+
+---
+
 # Welcome to your Lovable project
 
 ## Project info

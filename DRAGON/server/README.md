@@ -1,5 +1,12 @@
 # Dragon Coin (DRGN)
 
+## 🌐 Live Deployment
+- **Backend API**: [https://dragon-coin.onrender.com/](https://dragon-coin.onrender.com/)
+- **Smart Contract**: [0x432091fca44F8f6e2b20773cb1cA3c4d5a8ED4E8](https://sepolia.etherscan.io/token/0x432091fca44F8f6e2b20773cb1cA3c4d5a8ED4E8) (Sepolia Testnet)
+- **Frontend**: [https://druk-bitcoin-reserve.lovable.app/](https://druk-bitcoin-reserve.lovable.app/)
+
+**✅ Fully Deployed!** All components are live and functional. No local server setup required for end users.
+
 A simple stablecoin POC backed by Bhutan's Bitcoin reserves, deployed on the Sepolia testnet.
 
 ## Overview

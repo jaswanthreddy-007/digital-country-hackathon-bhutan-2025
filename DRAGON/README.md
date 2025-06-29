@@ -5,11 +5,17 @@
 **Dragon Coin backed by Bhutan's BTC Reserves**
 
 A revolutionary cryptocurrency project that leverages Bhutan's Bitcoin reserves to create a stable digital currency.
+## 📊 Presentation
+**View our project presentation**: [Dragon Coin Presentation Deck](https://www.canva.com/design/DAGrrg7qe-0/rj1IkYr7D2IPWtULELw-Ng/edit?utm_content=DAGrrg7qe-0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ## 🌐 Live Deployment
+Everything in out there 🥳🥳
 - **Deployed Token Contract**: [0x432091fca44F8f6e2b20773cb1cA3c4d5a8ED4E8](https://sepolia.etherscan.io/token/0x432091fca44F8f6e2b20773cb1cA3c4d5a8ED4E8) (Sepolia Testnet)
 - **Main Application UI**: [https://druk-bitcoin-reserve.lovable.app/](https://druk-bitcoin-reserve.lovable.app/)
 - **Dashboard endpoint**: [https://druk-bitcoin-reserve.lovable.app/dashboard](https://druk-bitcoin-reserve.lovable.app/dashboard)
+- **Backend API**: [https://dragon-coin.onrender.com/](https://dragon-coin.onrender.com/)
+
+**🎉 Ready to Use!** The application is fully deployed and functional. You can directly access the UI to see all features without any local setup.
 
 ## 🎯 Core Features
 
@@ -24,12 +30,17 @@ A revolutionary cryptocurrency project that leverages Bhutan's Bitcoin reserves 
 
 ## 🚀 Quick Start
 
-### Prerequisites
+### 🌐 Use the Live Application
+**No setup required!** Simply visit [https://druk-bitcoin-reserve.lovable.app/](https://druk-bitcoin-reserve.lovable.app/) to access the fully functional Dragon Coin application with live data feeds.
+
+### 💻 Local Development (Optional)
+
+If you want to run the application locally for development purposes:
+
+#### Prerequisites
 - Node.js (v16 or higher)
 - npm or yarn
 - Git
-
-### Running the Application
 
 #### 1. Clone the Repository
 ```bash
@@ -37,37 +48,24 @@ git clone <repository-url>
 cd "DRAGON"
 ```
 
-#### 2. Setup Local Server for Live Data Feed
-
-Navigate to the server directory:
+#### 2. Run the UI Locally (connects to deployed backend)
 ```bash
-cd server
+cd UI
+npm install
+npm run dev
 ```
 
-**Option A: Using Deploy Script**
+#### 3. Run Full Stack Locally (Optional - for backend development)
+If you want to run the backend server locally as well:
+
 ```bash
-cd scripts
-# Run the deploy script (check the deploy script for specific instructions)
-```
-
-**Option B: Using Environment Variables**
-1. Create a `.env` file in the server directory
-2. Add the deployed contract address:
-```env
-CONTRACT_ADDRESS=0x432091fca44F8f6e2b20773cb1cA3c4d5a8ED4E8
-# Add other required environment variables
-```
-
-#### 3. Start the API Server
-
-Navigate to the API folder and install dependencies:
-```bash
-cd api
+# In a new terminal, navigate to the server API directory
+cd server/api
 npm install
 npm start
 ```
 
-🎉 **You're ready!** The local server will now feed live data to the UI, and you can see live update feeds in the deployed application.
+The UI will automatically connect to your local backend if it's running, otherwise it falls back to the deployed backend.
 
 ## 📁 Project Structure
 
@@ -101,7 +99,7 @@ npm start
 
 ## 📊 API Endpoints
 
-The local API server provides the following endpoints for live data:
+The deployed backend API at [https://dragon-coin.onrender.com/](https://dragon-coin.onrender.com/) provides the following endpoints for live data:
 - Transaction feeds
 - Balance information
 - Contract status
@@ -110,19 +108,19 @@ The local API server provides the following endpoints for live data:
 
 ## 🛠️ Development
 
+### Local Frontend Development
+```bash
+cd UI
+npm install
+npm run dev
+```
+
 ### Smart Contract Development
 ```bash
 cd server
 npm install
 npx hardhat compile
 npx hardhat test
-```
-
-### Frontend Development
-```bash
-cd UI
-npm install
-npm run dev
 ```
 
 ## 🔐 Security Features
@@ -202,4 +200,6 @@ For questions, issues, or support, please refer to the project documentation or 
 
 ---
 
-**Important Note**: The main application UI is already deployed and accessible via the provided URLs. The local server setup is only required for feeding live data to enhance the user experience with real-time updates.
+**🚀 Quick Access**: The complete Dragon Coin application is deployed and ready to use at [https://druk-bitcoin-reserve.lovable.app/](https://druk-bitcoin-reserve.lovable.app/). No local setup required for end users!
+
+**👨‍💻 For Developers**: If you want to contribute or run locally, simply go to the `UI` folder, run `npm install`, then `npm run dev`. The UI will automatically connect to the deployed backend.
